@@ -10,11 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/themes": "^2.0.3",
+    "date-fns": "^3.3.1",
+    "lucide-react": "^0.323.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sonner": "^1.4.0"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
+    "@types/dom-speech-recognition": "^0.0.4",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
@@ -24,7 +30,9 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "install": "^0.13.0",
     "postcss": "^8.4.34",
+    "recognition": "link:@types/dom/speech/recognition",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
